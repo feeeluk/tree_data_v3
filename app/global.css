@@ -27,6 +27,7 @@ main {
     width: 100%;
     min-height: calc(100vh);
     padding-top: 50px;
+    padding-bottom: 15px;
     z-index: 0;
     display: flex;
     justify-content: center;
@@ -35,6 +36,7 @@ main {
     @media (min-width: 400px){
         main {
             padding-top: 50px;
+            padding-bottom: 15px;
             min-height: calc(100vh);        
         }
     }
@@ -42,6 +44,7 @@ main {
     @media (min-width: 639px){
         main {
             padding-top: 65px;
+            padding-bottom: 30px;
             min-height: calc(100vh);
         }
     }
@@ -49,6 +52,7 @@ main {
     @media (min-width: 959px){
         main {
             padding-top: 80px;
+            padding-bottom: 50px;
             min-height: calc(100vh);
         }
     }
@@ -56,6 +60,7 @@ main {
     @media (min-width: 1279px){
         main {
             padding-top: 95px;
+            padding-bottom: 50px;
             min-height: calc(100vh);
         }
     }

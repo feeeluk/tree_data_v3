@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    // <div className="loginDiv">
+    <div className="loginDiv">
       <form className="loginForm" method="POST" action="/login">
         
         <table className="loginTable">
@@ -32,7 +32,7 @@ export default function Page() {
         </table>
 
       </form>
-    // </div>
+    </div>
 
   );
 }
