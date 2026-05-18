@@ -1,5 +1,5 @@
 export default function PublicHeader() {
   return (
-      <h1>Public Header</h1>
+      <h1 className="headerTitle">Public Header</h1>
   );
 }

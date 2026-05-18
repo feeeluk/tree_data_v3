@@ -91,7 +91,14 @@ a {
     color: blue;
 }
 
-.title {
+.headerTitle {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.footerTitle {
+    color: white;
     width: 100%;
     text-align: center;
 }

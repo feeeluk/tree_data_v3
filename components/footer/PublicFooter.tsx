@@ -1,5 +1,5 @@
 export default function PublicFooter() {
   return (
-      <h3>Public Footer</h3>
+      <h3 className="footerTitle">Public Footer</h3>
   );
 }
