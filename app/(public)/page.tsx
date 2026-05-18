@@ -1,6 +1,15 @@
+import { getEnvTitle } from "@/lib/env";
+
+const title = getEnvTitle();
+
 export default function Page() {
   return (
+    
+    
     <div className="loginDiv">
+
+      <h1>{title}</h1>
+      
       <form className="loginForm" method="POST" action="/login">
         
         <table className="loginTable">

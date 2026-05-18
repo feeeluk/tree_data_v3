@@ -1,9 +1,16 @@
 export function getEnvTitle() {
   const env = process.env.NEXT_PUBLIC_ENV;
 
-  return env === "live"
-    ? "Tree Data"
-    : env === "test"
-    ? "TEST - Tree Data V2"
-    : "LOCAL - Tree Data V2";
+  let result;
+
+  if (env === "live") {
+    result = "Tree Data";
+  } else if (env === "test") {
+    result = "TEST - Tree Data V3";
+  } else {
+    result = "LOCAL - TDV3";
+  }
+
+  return result;
+
 }
